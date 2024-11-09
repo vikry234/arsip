@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="logosindur.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <style>
+        /* Style for banner */
+        .banner {
+            background-color: #F6F8FA;
+            padding: 50px 0;
+            height: 100vh;
+            position: relative;
+            /* Add this */
+        }
+
+        /* Style for container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Style for text */
+        .text-center {
+            text-align: center;
+        }
+
+        /* Style for logo */
+        .banner img {
+            width: 200px;
+            height: auto;
+        }
+
+        /* Style for heading */
+        .banner h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        /* Style for subheading */
+        .banner p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Style for login links */
+        .banner a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .banner a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style for footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <img src="assets/img/logo/logosindur.png" alt="">
+                    <h1>Arsip Digital</h1>
+                    <h2>Kantor Kecamatan Gunungsindur</h2>
+                    <br>
+
+                    <a href="user_login.php">LOGIN PIMPINAN</a>
+                    <a href="login.php">LOGIN ADMIN / PETUGAS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="text-muted">Copyright © <?php echo date('Y') ?>. All rights reserved. Malas Ngoding</p>
+    </div>
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
